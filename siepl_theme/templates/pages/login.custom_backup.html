@@ -1,0 +1,31 @@
+{% extends "frappe/templates/base/login.html" %}
+
+{% block content %}
+
+<div class="siepl-login-container">
+
+    <!-- LEFT PANEL -->
+    <div class="siepl-left">
+        <h1>Smart. Secure.<br>Modern ERP<br>Solutions.</h1>
+    </div>
+
+    <!-- RIGHT PANEL -->
+    <div class="siepl-right">
+        <div class="siepl-card">
+
+            <!-- DYNAMIC LOGO -->
+            <div class="siepl-logo-wrapper">
+                {{ brand_html | safe }}
+            </div>
+
+            <h2>Login to <b>SIEPL-ERP</b></h2>
+
+            <!-- THIS WILL NOW RENDER PROPERLY -->
+            {{ login_form }}
+
+        </div>
+    </div>
+
+</div>
+
+{% endblock %}

@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap");
+
+body {
+    font-family: "Inter", sans-serif;
+}
+
+.siepl-login-page {
+    min-height: 100vh;
+    background: url("/assets/siepl_theme/img/login_bg.png") no-repeat center center fixed;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.siepl-login-card {
+    width: 380px;
+    background: rgba(255,255,255,0.95);
+    border-radius: 16px;
+    padding: 32px;
+    box-shadow: 0 30px 60px rgba(0,0,0,0.35);
+}
+
+.siepl-login-card .title {
+    text-align: center;
+    font-weight: 600;
+    margin-bottom: 24px;
+}
+
+.siepl-login-card input {
+    height: 44px;
+    border-radius: 8px;
+}
+
+.siepl-login-card .btn-primary {
+    background: #111;
+    border-radius: 8px;
+    height: 44px;
+    font-weight: 600;
+}
+
+.footer {
+    text-align: center;
+    font-size: 12px;
+    opacity: 0.6;
+    margin-top: 16px;
+}

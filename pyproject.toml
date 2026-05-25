@@ -1,0 +1,20 @@
+[project]
+name = "siepl_theme"
+authors = [
+    { name = "SIEPL", email = "sieplinc@gmail.com"}
+]
+description = "ERP Application streamlines and integrates core business processes—such as finance, HR, manufacturing, and supply chain management—into a single, unified system with a centralized database. It provides a single source of truth across the organization, enabling enhanced efficiency, real-time insights, and better decision-making."
+requires-python = ">=3.10"
+readme = "README.md"
+dynamic = ["version"]
+dependencies = [
+    # "frappe~=15.0.0" # Installed and managed by bench.
+]
+
+[build-system]
+requires = ["flit_core >=3.4,<4"]
+build-backend = "flit_core.buildapi"
+
+# These dependencies are only installed when developer mode is enabled
+[tool.bench.dev-dependencies]
+# package_name = "~=1.1.0"

@@ -1,0 +1,21 @@
+{% extends "templates/base.html" %}
+
+{% block content %}
+<link rel="stylesheet" href="/assets/siepl_theme/css/login.css">
+
+<div class="siepl-login-page">
+    <div class="siepl-login-card">
+
+        <h2 class="title">Log in</h2>
+
+        <form class="login-form">
+            {{ login_form }}
+        </form>
+
+        <div class="footer">
+            © SIEPL ERP
+        </div>
+
+    </div>
+</div>
+{% endblock %}

@@ -1,0 +1,105 @@
+/* ===============================
+   SIEPL ERP – Enhanced Rebrand
+   (High visibility logo + SIEPL-ERP text)
+   =============================== */
+
+/* Brand Colors */
+:root {
+    --siepl-primary: #0058B0;      /* Deep SIEPL blue */
+    --siepl-primary-light: #1C78E8;
+    --siepl-accent: #E8F1FF;
+    --siepl-bg: #F7F9FC;
+}
+
+/* TOP BAR */
+.navbar {
+    background-color: var(--siepl-primary) !important;
+    border-bottom: none !important;
+}
+
+/* --- Modern Enhanced Oval Logo Container --- */
+.navbar-brand {
+    display: flex !important;
+    align-items: center !important;
+    padding: 10px 22px !important;         /* Bigger for better visibility */
+    background: rgba(255, 255, 255, 0.25); /* Brighter pill for contrast */
+    border-radius: 50px !important;         /* Smooth oval shape */
+    margin-right: 16px !important;
+    color: white !important;
+    font-weight: 600 !important;
+}
+
+/* Logo image */
+.navbar-brand img {
+    height: 38px !important;               /* Larger logo */
+    width: auto !important;
+    border-radius: 4px !important;         /* Keep original shape */
+    padding: 2px !important;
+    background: white !important;          /* Sharp visibility */
+}
+
+/* Replace ERPNext text with SIEPL-ERP and make it clearer */
+.navbar-brand:after {
+    content: "SIEPL-ERP" !important;       /* ← Hyphen added */
+    margin-left: 10px;
+    font-size: 18px;
+    font-weight: 700;
+    color: #FFFFFF;                         /* Pure white for clarity */
+}
+
+.navbar .icon {
+    color: white !important;
+}
+
+/* BACKGROUND */
+body, .desk-container {
+    background: var(--siepl-bg) !important;
+}
+
+/* SIDEBAR */
+.desk-sidebar, 
+.standard-sidebar {
+    background: #ffffff !important;
+    border-right: 1px solid #e3e3e3 !important;
+}
+
+.sidebar-item {
+    border-radius: 6px !important;
+    padding: 8px 12px !important;
+}
+
+.standard-sidebar-item:hover {
+    background: var(--siepl-accent) !important;
+}
+
+/* MODULE CARDS */
+.module-section {
+    background: #fff !important;
+    border-radius: 10px !important;
+    border: 1px solid #eaeaea !important;
+}
+
+/* BUTTONS */
+.btn-primary {
+    background: var(--siepl-primary) !important;
+    border-color: var(--siepl-primary) !important;
+    border-radius: 6px !important;
+}
+
+.btn-primary:hover {
+    background: var(--siepl-primary-light) !important;
+}
+
+/* LOGIN PAGE */
+.login-wrapper {
+    background: var(--siepl-bg) !important;
+}
+
+.login-card {
+    border-radius: 12px !important;
+    border: 1px solid #e3e3e3 !important;
+}
+
+.page-footer {
+    display: none !important;
+}

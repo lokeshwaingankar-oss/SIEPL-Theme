@@ -1,0 +1,45 @@
+/* ===== ERPNext v15 Login Styling (SAFE) ===== */
+
+/* Hide navbar only on login */
+body[data-route="login"] .navbar {
+    display: none !important;
+}
+
+/* Full background */
+body[data-route="login"] .login-page {
+    background: url("/assets/siepl_theme/img/login_bg.png") no-repeat center center fixed !important;
+    background-size: cover !important;
+}
+
+/* Center login box */
+body[data-route="login"] .login-content-wrapper {
+    min-height: 100vh !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+}
+
+/* Login card */
+body[data-route="login"] .login-box {
+    width: 380px !important;
+    background: rgba(255,255,255,0.95) !important;
+    border-radius: 16px !important;
+    padding: 32px !important;
+    box-shadow: 0 30px 60px rgba(0,0,0,0.4) !important;
+}
+
+/* Inputs */
+body[data-route="login"] .login-box input {
+    height: 44px !important;
+    border-radius: 8px !important;
+}
+
+/* Primary button */
+body[data-route="login"] .login-box .btn-primary {
+    background: #111 !important;
+    border-radius: 8px !important;
+    height: 44px !important;
+    font-weight: 600 !important;
+    border: none !important;
+}
+
