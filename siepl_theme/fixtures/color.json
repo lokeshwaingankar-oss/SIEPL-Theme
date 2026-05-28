@@ -1,0 +1,114 @@
+[
+ {
+  "color": "#4463F0",
+  "docstatus": 0,
+  "doctype": "Color",
+  "modified": "2025-08-26 17:14:05.057903",
+  "name": "Blue"
+ },
+ {
+  "color": "#CB2929",
+  "docstatus": 0,
+  "doctype": "Color",
+  "modified": "2025-08-26 17:14:34.404018",
+  "name": "Red"
+ },
+ {
+  "color": "#29CD42",
+  "docstatus": 0,
+  "doctype": "Color",
+  "modified": "2025-08-26 17:14:48.116479",
+  "name": "Green"
+ },
+ {
+  "color": "#9c3e3e",
+  "docstatus": 0,
+  "doctype": "Color",
+  "modified": "2025-08-26 17:15:10.867841",
+  "name": "Brown"
+ },
+ {
+  "color": "#f0dd11",
+  "docstatus": 0,
+  "doctype": "Color",
+  "modified": "2025-08-26 17:15:41.563795",
+  "name": "Yellow"
+ },
+ {
+  "color": "#960b3e",
+  "docstatus": 0,
+  "doctype": "Color",
+  "modified": "2026-01-22 19:02:46.011555",
+  "name": "Pink"
+ },
+ {
+  "color": "#e5e7eb",
+  "docstatus": 0,
+  "doctype": "Color",
+  "modified": "2026-04-16 09:16:35.765060",
+  "name": "Off White"
+ },
+ {
+  "color": "#111827",
+  "docstatus": 0,
+  "doctype": "Color",
+  "modified": "2026-04-16 09:16:55.240891",
+  "name": "Black"
+ },
+ {
+  "color": "#020617",
+  "docstatus": 0,
+  "doctype": "Color",
+  "modified": "2026-04-16 09:17:17.993216",
+  "name": "Dark Black"
+ },
+ {
+  "color": "#0f172a",
+  "docstatus": 0,
+  "doctype": "Color",
+  "modified": "2026-04-16 09:17:51.597886",
+  "name": "bgr"
+ },
+ {
+  "color": "#4f46e5",
+  "docstatus": 0,
+  "doctype": "Color",
+  "modified": "2026-04-16 09:16:09.133941",
+  "name": "Indigo"
+ },
+ {
+  "color": "#c9a84c",
+  "docstatus": 0,
+  "doctype": "Color",
+  "modified": "2026-04-16 10:44:09.172678",
+  "name": "Gold"
+ },
+ {
+  "color": "#c4d4e8",
+  "docstatus": 0,
+  "doctype": "Color",
+  "modified": "2026-04-16 10:44:43.471912",
+  "name": "Grey"
+ },
+ {
+  "color": "#1a2f52",
+  "docstatus": 0,
+  "doctype": "Color",
+  "modified": "2026-04-16 10:45:15.141284",
+  "name": "Navy"
+ },
+ {
+  "color": "#0d1e3a",
+  "docstatus": 0,
+  "doctype": "Color",
+  "modified": "2026-04-16 10:45:36.295230",
+  "name": "Drk"
+ },
+ {
+  "color": "#0a1628",
+  "docstatus": 0,
+  "doctype": "Color",
+  "modified": "2026-04-16 10:45:55.652816",
+  "name": "Bkgr"
+ }
+]
