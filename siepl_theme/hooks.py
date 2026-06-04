@@ -16,12 +16,7 @@ fixtures = [
     }
 ]
 
-app_include_js = [
-#    "/assets/siepl_theme/js/custom_login.js",
-    "/assets/siepl_theme/js/sidebar_rebrand.js",
-    "/assets/siepl_theme/js/hide_browse_apps.js",
-    "/assets/siepl_theme/js/hide_help.js"
-]
+app_include_js = ["siepl_theme.bundle.js"]
 # Enable translations (optional)
 translate = "siepl_theme.locale"
 
