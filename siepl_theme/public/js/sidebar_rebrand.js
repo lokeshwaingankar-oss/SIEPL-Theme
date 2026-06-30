@@ -54,6 +54,20 @@ $(document).on("click", function () {
                         .replaceAll("ERPNext", "SIEPL ERP")
                 );
             }
+            if (text.trim() === "SIEPL ERP Support" || text.trim() === "Frappe Support") {
+                let $item = $(this).closest(".dropdown-menu-item");
+                $item.off("click").on("click", function (e) {
+                    e.preventDefault();
+                    e.stopPropagation();
+                    frappe.db.get_single_value("System Settings", "user_manual").then((file_url) => {
+                        if (file_url) {
+                            window.open(`${window.location.origin}${file_url}`, "_blank");
+                        } else {
+                            frappe.msgprint(__("Support PDF not configured in System Settings."));
+                        }
+                    });
+                });
+            }
         });
     }, 100);
 });
